@@ -1,1 +1,39 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Slutuppgift">
+        <meta name="author" content="Paul">
+        <link rel="stylesheet" href="SlutUppgift.CSS">
+        <title> Slutuppgift Webbutveckling </title>        
+    </head>
+
+    <body>
+ 
+        <div id="menu-bar">
+            <div id="menu" onclick="onClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Apelsinen</a></li>
+                <li><a href="#">Om Mig</a></li>
+                <li><a href="#">Ahmodi</a></li>
+            </ul>
+        </div>
+        <div class="meny-bg" id="menu-bg>"></div>
+        <script defer>
+        function onClick(){
+           let Menu = document.getElementById("menu");
+           Menu.classList.toggle("change");
+           let Nav = document.getElementById("nav");
+           Nav.classList.toggle("change");
+           let Menubg = document.getElementById("menu-bg");
+           Menubg.classList.toggle("change-bg");
+        }
+        </script>   
+    </body>
+
+</html>
