@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="description" content="Slutuppgift">
         <meta name="author" content="Paul">
-        <link rel="stylesheet" href="index.CSS">
+        <link rel="stylesheet" href="SlutUppgift.CSS">
         <title> Slutuppgift Webbutveckling </title>        
-    </head>
+    </head> 
 
     <body>
  
@@ -17,23 +17,38 @@
                 <div id="bar3" class="bar"></div>
             </div>
             <ul class="nav" id="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Apelsinen</a></li>
-                <li><a href="#">Om Mig</a></li>
-                <li><a href="#">Ahmodi</a></li>
+                <li><a href="SlutUppgift.html">Home</a></li>
+                <li><a href="Champions.html">Champions</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="GetGud.html">Hur man blir bra</a></li>
             </ul>
         </div>
-        <div class="meny-bg" id="menu-bg>"></div>
+        <div class="menu-bg" id="menu-bg>"></div>
+
+        <div class="Bild1" id="Bild1">
+            <img src="league-of-legends-1024x576.webp">
+        </div>
+
+        <div class="SM" id="SM">
+           <h1>About League of Legends</h1> 
+           <p>  
+            League of Legends is all about teamplay, understanding the game and being able to make strategies according to the players you are going up against.
+           </p>
+        </div>
+
         <script defer>
+
         function onClick(){
-           let Menu = document.getElementById("menu");
-           Menu.classList.toggle("change");
-           let Nav = document.getElementById("nav");
-           Nav.classList.toggle("change");
-           let Menubg = document.getElementById("menu-bg");
-           Menubg.classList.toggle("change-bg");
+
+            document.getElementById("menu").classList.toggle("change")
+
+            document.getElementById("nav").classList.toggle("change")
+
+            document.getElementById("menu-bg").classList.toggle("change-bg")
         }
         </script>   
+
+
     </body>
 
 </html>
