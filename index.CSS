@@ -101,7 +101,7 @@ body{
 
 .Titel{
     text-align: center;
-    text-shadow: black;
+    
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -120,7 +120,7 @@ body{
     top: 15vh;
     
     text-align: center;
-    text-shadow: black;
+    
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -134,7 +134,7 @@ body{
     top: 20vh;
 
     text-align: center;
-    text-shadow: black;
+    
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -151,7 +151,7 @@ body{
     margin-left: 10px;
     position: relative;
     text-align: center;
-    text-shadow: black;
+  
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -170,7 +170,7 @@ body{
 
 .Name{
     text-align: center;
-    text-shadow: black;
+    
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -192,7 +192,7 @@ body{
 
 .Naame{
     text-align: center;
-    text-shadow: black;
+    
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
