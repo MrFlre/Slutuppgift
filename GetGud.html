@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Slutuppgift">
+        <meta name="author" content="Paul">
+        <link rel="stylesheet" href="SlutUppgift.CSS">
+        <link rel="stylesheet" href="GetGud.CSS">
+        <title> Slutuppgift Webbutveckling </title>        
+    </head>
+
+    <body>
+ 
+        <div id="menu-bar">
+            <div id="menu" onclick="onClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="SlutUppgift.html">Home</a></li>
+                <li><a href="Champions.html">Champions</a></li>
+                <li><a href="GetGud.html">How to get better</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg>"></div>
+
+        <div class="LOOOL" id="LOOOL"><h1>How to get better <h5 class="tips">(these are just tips, dont take it 100% seriously!!!)</h5></h1></div>
+
+        <div class="Farm">
+            <h2> CS, Creep Score </h2>
+
+            <img src="Minioner.jpg">
+            <img src="Minions.jpg">
+            <p>
+                It is really important to have a good cs, in order to get more gold and being able to get more items in order to get stronger.
+                <br><br>
+                There are different minion types, caster minions, mele minions, canon minions and super minions. <br>
+                Caster minions are easiest to kill because they have least dmg and least hp. <br>
+                Mele minions do more dmg and on their name they are melex, which leads them to have more hp and being harder to kill.<br>
+                Canon minions deals more dmg due to them having a canon and they have most hp, they also give most gold on being killed, but they get changed to super minions if an ally/enemy inhibitor is destroyed.<br>
+                Super minions are the strongest and tankiest mionions, which only spawn if an inhibitor is destroyed.
+            </p>
+
+        </div>
+
+        <div class="Team"> 
+            <h2>Playing as a team!!!</h2>
+
+            <p>
+                It is really improtant to play as a team in order to be able to make plays so you can win teamfights, objectives or just to be able to destroy the enemies tower/inhibitor/nexus.
+            </p>
+        </div>
+
+        <script defer>
+
+        function onClick(){
+
+            document.getElementById("menu").classList.toggle("change")
+
+            document.getElementById("nav").classList.toggle("change")
+
+            document.getElementById("menu-bg").classList.toggle("change-bg")
+        }
+        </script>   
+    </body>
+
+</html>

@@ -1,0 +1,120 @@
+.APP{
+    text-align: center;
+    text-shadow: black;
+    color: goldenrod;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ChampN1 h2 {
+    text-align: center;
+    text-shadow: black;
+    color: goldenrod;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Ahri{
+    display: left;
+    align-items: left;
+    justify-content:left;
+    margin-left: 150px;
+
+}
+
+.Ahri img{
+    margin-top: 50px;
+    height: 300px;
+}
+
+.AhriAbilities img{
+    width: 500px;
+    height: 100px;
+    margin-left: 175px;
+}
+
+.AhriAbilities p{
+
+    text-align: center;
+    text-shadow: black;
+    color: white;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ChampN2 h2 {
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: black;
+    color: goldenrod;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.KhaZix{
+    display: left;
+    align-items: left;
+    justify-content:left;
+    margin-left: 150px;
+}
+
+.KhaZix img{
+    margin-top: 50px;
+    height: 300px;
+}
+
+.KhaAbilities img{
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    margin-left: 175px;
+}
+
+.KhaAbilities p{
+    text-align: center;
+    text-shadow: black;
+    color: white;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ChampN3 h2 {
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: black;
+    color: goldenrod;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Thresh{
+    display: left;
+    align-items: left;
+    justify-content:left;
+    margin-left: 150px;
+}
+
+.Thresh img{
+    margin-top: 50px;
+    height: 300px;
+}
+
+.ThreshAbilities img{
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+.ThreshAbilities p{
+    text-align: center;
+    text-shadow: black;
+    color: white;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ContentAlignCenter{
+    display: flex;
+    justify-content: left;
+}
