@@ -1,6 +1,6 @@
 .APP{
     text-align: center;
-    text-shadow: black;
+   
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -8,15 +8,15 @@
 
 .ChampN1 h2 {
     text-align: center;
-    text-shadow: black;
+   
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Ahri{
-    display: left;
-    align-items: left;
+  
+ 
     justify-content:left;
     margin-left: 150px;
 
@@ -36,7 +36,7 @@
 .AhriAbilities p{
 
     text-align: center;
-    text-shadow: black;
+   
     color: white;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -45,15 +45,15 @@
 .ChampN2 h2 {
     margin-top: 100px;
     text-align: center;
-    text-shadow: black;
+
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .KhaZix{
-    display: left;
-    align-items: left;
+    
+   
     justify-content:left;
     margin-left: 150px;
 }
@@ -72,7 +72,7 @@
 
 .KhaAbilities p{
     text-align: center;
-    text-shadow: black;
+    
     color: white;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -81,15 +81,14 @@
 .ChampN3 h2 {
     margin-top: 100px;
     text-align: center;
-    text-shadow: black;
+
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .Thresh{
-    display: left;
-    align-items: left;
+   
     justify-content:left;
     margin-left: 150px;
 }
@@ -108,7 +107,7 @@
 
 .ThreshAbilities p{
     text-align: center;
-    text-shadow: black;
+ 
     color: white;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
