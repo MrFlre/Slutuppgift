@@ -1,6 +1,6 @@
 .LOOOL{
     text-align: center;
-    text-shadow: rgb(73, 22, 22);
+  
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -14,7 +14,7 @@
 .Farm h2{
     margin-top: 100px;
     text-align: center;
-    text-shadow: black;
+
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,7 +29,7 @@
 
 .Farm p{
     text-align: center;
-    text-shadow: black;
+ 
     color: white;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -38,7 +38,7 @@
 .Team h2{
     margin-top: 50px;
     text-align: center;
-    text-shadow: black;
+
     color: goldenrod;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -46,7 +46,7 @@
 
 .Team p{
     text-align: center;
-    text-shadow: black;
+  
     color: white;
     font-style: oblique;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
