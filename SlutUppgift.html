@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Slutuppgift">
+        <meta name="author" content="Paul">
+        <link rel="stylesheet" href="SlutUppgift.CSS">
+        <title> Slutuppgift Webbutveckling </title>        
+    </head> 
+
+    <body>
+ 
+        <div id="menu-bar">
+            <div id="menu" onclick="onClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="SlutUppgift.html">Home</a></li>
+                <li><a href="Champions.html">Champions</a></li> 
+                <li><a href="GetGud.html">How to get better</a></li>
+            </ul>
+        </div>
+        <div class="menu-bg" id="menu-bg>"></div>
+
+        <div class="Bild1" id="Bild1">
+            <img src="league-of-legends-1024x576.webp">
+        </div>
+
+        <div class="AboutLoL" id="AboutLoL">
+           <h1>About League of Legends</h1> 
+           <p>  
+            League of Legends is all about teamplay, understanding the game and being able to make strategies according to the players you are going up against.<br> <br> 
+            To understand how league works, one must first know where it is. The location is called Summoners Rift. <br><br><br><br><br>
+           </p>
+        </div>
+
+        <section class="SuM">
+        <div class="SM" id="SM">
+            <img src="Summoners_Rift_Update_Map.webp">
+        </div>
+       
+        <div class="OmSM" id="OmSM">
+            <p>There are 11 towers on each side with 3 inhibitors and 1 nexus on each side of the 2 teams.<br> The goal is to destroy the towers in the lanes until you come to the inhibitors, then you want to 
+                <br>destroy the 2 towers that are in the way of the nexus crystal to be able to end the game.
+                <br><br>All that you have to do while getting objectives like one of the 5 dragons until one team has 4 dragons, 
+                <br>Rift Heralds or Baron Nashor.
+                <br><br>You can see everything on the map to the left.  </p>
+        </div>
+        </section>
+
+        <section class="MasterDrakeInfo">
+        <section class="drakes">
+            <br><br><br><br>
+        <div class="Id"> 
+            <img src="Infernal drake.jpg">
+        </div>
+
+        <div class="Od">
+            <img src="Ocean drake.jpg">
+        </div>
+
+        <div class="Cd">
+            <img src="Cloud drake.jpg">
+        </div>
+
+        <div class="Md">
+            <img src="Mountain drake.jpg">
+        </div>
+
+        <div class="Hd">
+            <img src="Hextech drake.jpg">
+        </div>
+
+        <div class="Ed">
+            <img src="Elder drake.jpg">
+        </div>
+    
+    </section>
+    <section class="Name">
+        <p><h2>Infernal Dragon</h2>
+            <br><br><br><br><br><br><br>
+            <h2>Ocean Dragon</h2>
+            <br><br><br><br><br><br><br>
+            <h2>Cloud Dragon</h2>
+            <br><br><br><br><br><br><br><br>
+            <h2>Mountain Dragon</h2>
+            <br><br><br><br><br><br><br><br>
+            <h2>Hextech Dragon</h2>
+            <br><br><br><br><br>
+            <h2>Elder Dragon</h2></p>
+    </section>
+</section>
+
+        <section class="BaronRift">
+        <section class="RiftBaron">
+        <div class="RH">
+            <img src="Rift Herald.jpg">
+        </div>
+
+        <div class="BN">
+            <img src="Baron.jpg">
+        </div>
+    </section>
+    <section class="Naame">
+        <p><h2>Rift Herald</h2>
+        <br><br><br><br><br><br>
+        <h2>Baron Nashor</h2></p>
+    </section>
+</section>
+
+        <script defer>
+
+        function onClick(){
+
+            document.getElementById("menu").classList.toggle("change")
+
+            document.getElementById("nav").classList.toggle("change")
+
+            document.getElementById("menu-bg").classList.toggle("change-bg")
+        }
+        </script>   
+
+
+    </body>
+
+</html>
